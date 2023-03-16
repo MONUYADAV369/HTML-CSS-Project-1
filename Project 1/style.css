@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.list-item{
+    color: #ffc233;
+}
+.button{
+    margin:30px ;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+
+.read{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+h1{
+    font-family: "Dela Gothic One",cursive ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 114px;
+    color: #ffc233;
+}
+.logo{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.largbutton{
+    background-color:#ff505f;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 30px;
+    border: solid #000000;
+    cursor: pointer;
+
+}
+.smallbutton{
+    background-color:#ff505f;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    padding: 12px 30px ;
+    border-radius: 3px;
+    font-weight: bold;
+    line-height: 30px;
+    cursor: pointer;
+    
+}
+.largbutton:hover{
+    background-color:#ffffff;
+    color: black;
+    border:solid #000000;
+
+}
+.smallbutton:hover{
+    background-color:#ffffff;
+    color: black;
+    border:solid #000000;
+
+}
+
+.downlogo{
+    margin: 20px;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+}
